@@ -93,7 +93,7 @@ class SmartDL:
             self.logger = utils.DummyLogger()
         
         self.headers = {'User-Agent': utils.get_random_useragent()}
-        self.threads_count = 5
+        self.threads_count = 20
         self.timeout = 4
         self.current_attemp = 1 
         self.attemps_limit = 4
